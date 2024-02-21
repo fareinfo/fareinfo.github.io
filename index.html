@@ -1,7 +1,62 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<github-md>
+
+```
+#lang racket
+(define (length lis)
+   (cond ((null? lis)
+          0)
+         (else
+          (+ 1 (length (cdr lis))))))
+```
+
+# Idee in funzione
+
+ ```
+     
+     FU
+      UN
+  ID   NZ
+   DE   ZI
+    EE   IO
+     EI   ON
+      IN   NE
+     EI   ON
+    EE   IO
+   DE   ZI
+  ID   NZ
+      UN
+     FU
+```
+
+https://marketingpipeline.github.io/Markdown-Tag/
+
+https://github.github.com/gfm/
+
+
+
+> ```
+> Welcome to Berkeley Logo version 6.2
+> ?|
+> ```
+
+```
+to square :size
+   repeat 4 [fd :size rt 90]
+end
+```
+
+
+</github-md>
+<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag-GitHub.js"></script>-->
+
 </body>
 </html>
+
+
