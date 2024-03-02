@@ -662,14 +662,7 @@ llab.addFooter = () => {
   <footer>
     <div class="footer wrapper margins">
       <div class="footer-col col-md-10 col-xs-12">
-        <p>Questa è una traduzione non ufficiale in italiano di
-		<a href="https://bjc.berkeley.edu/" target="_blank"> BJC e BJC Sparks</a>
-		dalla University of California, Berkeley e dall'Education Development Center, Inc.
-		e protetti da una licenza internazionale Creative Commons
-        Attribution-NonCommercial-ShareAlike 4.0. Tutti i meriti vanno ai
-		creatori dei contenuti originali, le cui opinioni non riflettono
-		necesariamente quelle del traduttore.
-      </p>
+        <p>Questa è una traduzione non ufficiale in italiano di <a href="https://bjc.berkeley.edu/" target="_blank"> BJC e BJC Sparks</a> dalla University of California, Berkeley e dall'Education Development Center, Inc. I materiali originali e questa traduzione sono protetti da una licenza internazionale Creative Commons Attribution-NonCommercial-ShareAlike 4.0. Tutti i meriti vanno ai creatori dei materiali originali, e le loro opinioni non riflettono necesariamente quelle del traduttore.</p>
     </div>
     <div class="footer-col col-md-2 col-xs-4">
 	  <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it">
