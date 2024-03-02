@@ -676,7 +676,7 @@ table.truth tr td {
 .vocabBig:before,
 .vocabFullWidth:before,
 .vocabSummary:before {
-  content: "Vocabulary";
+  content: "Vocabolario";
   font-size: 16px;
   font-weight: bold;
   line-height: 1.5em;
