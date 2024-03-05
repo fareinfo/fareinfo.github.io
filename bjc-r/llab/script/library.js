@@ -15,7 +15,7 @@ llab.PRODUCTION_SERVERS = [ 'bjc.berkeley.edu', 'bjc.edc.org', 'cs10.org' ]
 ////// TRANSLATIONS -- Shared Across All Files.
 llab.TRANSLATIONS = {
     'ifTime': {
-      en: 'If There Is Time…',
+      en: 'Se hai tempo…',
       es: 'Si hay tiempo…',
     },
     'takeItFurther': {
@@ -27,15 +27,15 @@ llab.TRANSLATIONS = {
       es: 'Llevándolo más allá',
     },
     'backText': {
-      en: 'previous page',
+      en: 'pagina precedente',
       es: 'Anterior',
     },
     'nextText': {
-      en: 'next page',
+      en: 'prossima pagina',
       es: 'Siguiente',
     },
     'selfCheckTitle': {
-      en: 'Self-Check Question',
+      en: 'Autovalutazione',
       es: 'Autoevaluación',
     },
     'Try Again': {
