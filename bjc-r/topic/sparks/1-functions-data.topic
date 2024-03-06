@@ -9,7 +9,7 @@ heading:  Lab 1: Introduzione a Snap<em>!</em>
 
 heading: Lab 2: Storie Lampo
 	resource: Un autore di storie lampo [/bjc-r/sparks/student-pages/U1/L2/01-super-short-story-builder.html]
-	resource: Editing a Block [/bjc-r/sparks/student-pages/U1/L2/02-editing-a-block.html]
+	resource: Modificare un blocco [/bjc-r/sparks/student-pages/U1/L2/02-editing-a-block.html]
 	resource: Using a Random Number [/bjc-r/sparks/student-pages/U1/L2/03-using-random-number.html]
 	resource: Modifying Inputs with <code>Join</code> [/bjc-r/sparks/student-pages/U1/L2/04-modifying-inputs-with-join.html]
 	resource: Creating a Block [/bjc-r/sparks/student-pages/U1/L2/05-creating-a-block.html]
