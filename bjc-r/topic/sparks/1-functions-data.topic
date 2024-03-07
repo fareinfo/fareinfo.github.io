@@ -7,8 +7,8 @@ heading:  Lab 1: Introduzione a Snap<em>!</em>
 	resource: Ciao Snap<em>!</em> [/bjc-r/sparks/student-pages/U1/L1/01-say-hello-to-snap.html]
 	resource: Registrati su Snap<em>!</em> [/bjc-r/sparks/student-pages/U1/L1/02-snap-accounts.html]
 
-heading: Lab 2: Storie Lampo
-	resource: Un autore di storie lampo [/bjc-r/sparks/student-pages/U1/L2/01-super-short-story-builder.html]
+heading: Lab 2: Storielle
+	resource: Il compositore [/bjc-r/sparks/student-pages/U1/L2/01-super-short-story-builder.html]
 	resource: Modificare un blocco [/bjc-r/sparks/student-pages/U1/L2/02-editing-a-block.html]
 	resource: Numeri casuali [/bjc-r/sparks/student-pages/U1/L2/03-using-random-number.html]
 	resource: Modificare gli input con <code>Join</code> [/bjc-r/sparks/student-pages/U1/L2/04-modifying-inputs-with-join.html]
