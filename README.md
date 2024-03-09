@@ -2,4 +2,4 @@
 
 ## [fareinfo.github.io](https://fareinfo.github.io/)
 
-Verso una traduzione in italiano di [The Beauty and the Joy of Computing](https://github.com/bjc-edc/bjc-r)
+Verso una traduzione in italiano di [The Beauty and Joy of Computing](https://github.com/bjc-edc/bjc-r)
