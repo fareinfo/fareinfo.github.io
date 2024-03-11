@@ -1,59 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
 		<script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
-		<title>Unit 1 Lab 2: Super Short Stories, Activity 6</title>
+		<title>Unità 1 Lab 2: Storielle, Attività 6</title>
 	</head>
-
 	<body>
-		<h2>Adding an Input to Your Block</h2>
-		<div class="todo">
-			<p>Add support for new variadic slot features. --MF, 2/1/22</p>
+		<h2>Aggiungere un input</h2>
+		<div class="learn">
+			In questa attività imparerai ad aggiungere un input al tuo blocco e a utilizzarlo nel codice.
 		</div>
-
-		
 		<div class="forYouToDo">
-		  <div class="todo">Why do you prefer the Plain Prototype Labels mode?  We put a lot of thought into the visible plus signs in the default mode, mainly because it makes the process of adding inputs <i>discoverable,</i> whereas it's pretty hard to hover in just the right place to make an invisible plus sign become visible and then click it.  I made Jens add the invisible-plus option only for the sake of making script pics for the manual and other documentation, not as a good way for users to use Snap<i>!.</i> -bh<p>We've talked about this. ;) It's great in Snap!, but it doesn't offer anything except clutter in a static image. --MF, 1/11/23</p></div>
-			<ol start="12">
+			<ol>
 				<li>
-					Add an input slot for the word that will be made plural.
+					Se il tuo progetto non è già aperto, esegui l'accesso a Snap<em>!</em> e apri il tuo progetto "Super Short Stories" selezionando "Open" dal menu File <img src="/bjc-r/img/1-introduction/file_button.png" alt="Pulsante File" title="Pulsante File"/>.
+				</li>
+				<li>
+					Cerca nella Tavolozza il blocco <code>plural of</code> (si trova al fondo della categoria "Operators"), cliccalo con il pulsante destro (o cliccalo tenendo premuto il tasto Control se usi un Mac) e scegli l'opzione "<strong>edit…</strong>" per aprirlo nell'Editor Blocchi.<br/>
 					<div class="vocabBig">
 						<p>
-							<strong>Hat blocks</strong> tell you when a piece of code should be run and what (if any) inputs it takes.<br />
-							<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural-hat.png" alt="'plural of (word)' inside a hat-shaped block" title="'plural of (word)' inside a hat-shaped block" /><br />
-							This code will run whenever the <code>plural</code> block is called, and takes one input called <var>word</var>.
+							Il <strong>cappello</strong> è il blocco che specifica quando il codice viene eseguito, e quanti e quali input riceve. Ad esempio, il cappello seguente<br />
+							<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural_of_word_hat.png" alt="Cappello di 'plural of (word)'" title="Cappello di 'plural of (word)'" /><br />
+							specifica che il codice sarà eseguito ogni volta che il blocco <code>plural of</code> viene chiamato, e riceve un input di nome <var>word</var>.
 						</p>
 					</div>
-						
-					<ol>
-						<li>
-							Hold your mouse pointer right after the word "of" in the <code>plural</code> <em>hat block</em>, and click the plus sign that appears.<br />
-							<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural-add-input.jpg" alt="'plural of' in the block editor showing the plus sign just after the word 'of' in the hat block" title="'plural of' in the block editor showing the plus sign just after the word 'of' in the hat block" />
-						</li>
-						<li>Type the word "word," and press "OK."</li>
-					</ol>
+					<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural_of_edit.jpg" alt="Come aprire 'plural of' nell'Editor" title="Come aprire 'plural of' nell'Editor" />
+				</li>				
+				<li>
+					Clicca sul simbolo "<strong>+</strong>" dopo la parola "of" nel <em>cappello</em> di <code>plural of</code>.<br />
+					<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural_of_add_input.jpg" alt="Clicca sul + per aggiungere un input" title="Clicca sul + per aggiungere un input" />
 				</li>
 				<li>
-					Code your <code>plural</code> block.
-					<ol>
-						<li>Drag a new <code>join</code> block out of the palette on the left and into the <code>report</code> block.</li>
-						<li>Drag off a copy of the "word" block from the <code>plural</code> hat block, drop it into the first input slot of <code>join</code>, type an "s" in the second slot, and press "OK." Whatever text is typed into the <var>word</var> input slot of <code>plural</code> will be the first input to <code>join</code>.<br/>
-						<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural-drag-word.jpg" alt="'plural of' in the block editor showing a copy of the 'word' variable being dragged off" title="'plural of' in the block editor showing a copy of the 'word' variable being dragged off" />
-						</li>
-					</ol>
+					Digita "<var>word</var>" come nome dell'input e premi il pulsante "OK".<br/>
+					<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural_of_create_input.jpg" alt="Crea un input di nome 'word'" title="Crea un input di nome 'word'" />
+				</li>
+			</ol>
+		</div>
+		<p>
+			Hai aggiunto un input di nome <var>word</var> al blocco <code>plural of</code>. Adesso modificherai il codice del blocco per utilizzare l'input nella computazione.
+		</p>
+		<div class="forYouToDo">
+			<ol start="5">
+				<li>
+					Dalla Tavolozza trascina un nuovo blocco <code>join</code> nell'input del blocco <code>report</code>. Dal cappello di <code>plural of</code> trascina una copia dell'input <var>word</var> nel primo input del blocco <code>join</code>, digita una "s" nel secondo input e premi "OK" per chiudere l'Editor blocchi.<br/>
+					<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural_of_drag_word.jpg" alt="Trascina una copia dell'input" title="Trascina una copia dell'input" />
 				</li>
 				<li>
-					Drag your <code>plural of</code> block out of the palette (it'll be at the bottom of the Operators category) into the Scripts area, and test it with different inputs. (For example, if you give it the input "cat," it should report, "cats.") If there are any problems with your block, right-click it, select "edit..." and make sure your code looks like this:<br />
-					<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural-definition.png" alt="'plural of' in the block editor with 'report (join (word)('s'))' attached below it" title="'plural of' in the block editor with 'report (join (word)('s'))' attached below it" />
+					Dalla Tavolozza trascina il blocco <code>plural of</code> nell'Area Script e provalo con diversi input (ad esempio, se l'input è "cat", dovrebbe restituire in output "cats").
+					
+					<div class="endnote">
+						<strong>Suggerimento:</strong>
+							<a href="#hint-edit" data-toggle="collapse" title="Clicca per vedere la soluzione">Se ci sono problemi, apri <code>plural of</code> nell'Editor blocchi e verifica che il codice sia questo:</a>
+							<div id="hint-edit" class="collapse">
+								<img class="indent" src="/bjc-r/sparks/img/U1/lab02/plural_of_definition.png" alt="report (join (word)(s))" title="report (join (word)(s))" />
+							</div>
+					</div>
 				</li>
-				<li>Once your <code>plural</code> block is working, try it with <code>random animal</code>, and finally, drag <img class="inline-block" src="/bjc-r/sparks/img/U1/lab02/plural-random-animal.png" alt="plural of (random animal)" title="plural of (random animal)" /> into <code>super short story</code>, and make sure it works as expected.</li>
-				<li><img class="inline" src="/bjc-r/img/icons/save-now.png" alt="Save your work" title="Save your work" /></li>
-				<div class="todo"><p>It'd be cool if they could try it with something other than random animal, to grok the point of reusable blocks. I realize nothing else needs a plural in the story though, but maybe they could play with it and not put in story? 🤷🏽‍♀️ -- PF 8/20/21</p><p>I agree. Any ideas? --MF, 8/20/21</p></div>
+				<li>
+					Quando il blocco <code>plural of</code> funziona correttamente, provalo con <code>random animal</code>. Trascina poi <img class="inline-block" src="/bjc-r/sparks/img/U1/lab02/plural-random-animal.png" alt="plural of (random animal)" title="plural of (random animal)" /> all'interno di <code>super short story</code> per verificare che tutto funzioni come previsto.
+				</li>
+				<li>
+					<img class="inline" src="/bjc-r/img/icons/save-mini.png" alt="Salva il tuo lavoro" title="Salva il tuo lavoro" /> Salva il tuo lavoro.
+				</li>
 			</ol>
 		</div>
 
-		<div class="learn">In this activity, you created a new block to perform a specific task and used it in your story.</div>
+		<div class="learn">
+			In questa attività hai imparato a modificare un blocco per aggiungere un input, eseguire un compito specifico e utilizzarlo nelle tue storie. 
+		</div>
 
 
 	</body>
